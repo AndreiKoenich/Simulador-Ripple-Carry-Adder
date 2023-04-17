@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SimuladorRCA" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SimuladorRCA" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SimuladorRCA" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="aleatorias_cortes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aleatorias_cortes.h" />
+		<Unit filename="aleatorias_inducoes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aleatorias_inducoes.h" />
+		<Unit filename="aleatorias_mudaporta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aleatorias_mudaporta.h" />
+		<Unit filename="especificas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="especificas.h" />
+		<Unit filename="exaustivo_mudalogica.h" />
+		<Unit filename="exaustivos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="exaustivos.h" />
+		<Unit filename="faixavalores_cortes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="faixavalores_cortes.h" />
+		<Unit filename="faixavalores_inducoes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="faixavalores_inducoes.h" />
+		<Unit filename="ieee_faixavalores.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="metricas_erros.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="metricas_erros.h" />
+		<Unit filename="operacoes_gerais.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="operacoes_gerais.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
